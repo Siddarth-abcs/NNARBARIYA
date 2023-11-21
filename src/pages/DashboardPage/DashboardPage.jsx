@@ -69,8 +69,13 @@ import './DashboardPage.css'
         </div>
         
         <div className="dashboard-img">
-          <div className="clint clinta"></div>
-          <div className="clint clintb"></div>
+        <div className="clint clintb"></div>
+          <div className="clint clinta">
+          <video width="320" height="240" autoPlay>
+  <source src="https://firebasestorage.googleapis.com/v0/b/project-93474.appspot.com/o/pexels_videos_2235745%20(720p).mp4?alt=media&token=876ffae5-63f0-4f87-a04f-5f18f182058c" type="video/mp4"></source>
+</video>
+
+          </div>
           <div className="clint clintc"></div>
         </div>
         </div>

@@ -46,27 +46,27 @@ export const createFolder = (data) => (dispatch) => {
     });
 }
 
-export const getFolders = (userId) => (dispatch) => {
-    dispatch(setLoading(true));
-    fire
-    .firestore()
-    .collection("folders")
-    .where("userId","==",userId)
-    .get()
-    .then(async (folders) => {
-        const folderData = await folders.docs.map((folder) => ({
-            data: folder.data(),
-            docId: folder.id
-        }));
-        dispatch(addFolders(folderData));
-        dispatch(setLoading(false));
-    })
-}
+    export const getFolders = (userId) => (dispatch) => {
+        dispatch(setLoading(true));
+        fire
+        .firestore()
+        .collection("folders")
+        .where("userId","==",userId)
+        .get()
+        .then(async (folders) => {
+            const folderData = await folders.docs.map((folder) => ({
+                data: folder.data(),
+                docId: folder.id
+            }));
+            dispatch(addFolders(folderData));
+            dispatch(setLoading(false));
+        })
+    }
 
 
-export const changeFolder = (folderId) => (dispatch) =>{
-    dispatch(setChangeFolder(folderId))
-}
+    export const changeFolder = (folderId) => (dispatch) =>{
+        dispatch(setChangeFolder(folderId))
+    }
 
 
 // files

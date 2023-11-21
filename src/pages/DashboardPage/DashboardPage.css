@@ -17,7 +17,7 @@
 
 .sub{
   height: 100vh;
-  width: 125%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -39,7 +39,7 @@
   }
   .clinta{
     margin-bottom: 0.5rem;
-    background-image: url(https://synnovatia.com/wp-content/uploads/2020/06/AdobeStock_102991760-scaled.jpeg);
+    /* background-image: url(https://synnovatia.com/wp-content/uploads/2020/06/AdobeStock_102991760-scaled.jpeg); */
   }
   .clintb{
     margin-top: 0.5rem;

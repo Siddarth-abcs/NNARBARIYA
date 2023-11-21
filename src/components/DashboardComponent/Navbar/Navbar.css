@@ -19,7 +19,7 @@
     margin-left: 2rem;
   }
   .logo>.img>img{
-    width: 250px;
+    width: 200px;
   }
   .logo>p{
     display: none;
@@ -61,7 +61,7 @@
   
   }
   .logo{
-    margin: 2rem auto;
+    margin: 2rem auto 1rem auto;
     text-align: center;
   }
   .logo>p{
@@ -69,7 +69,7 @@
     letter-spacing: 1px;
   }
   .img>img{
-    width: 200px;
+    width: 250px;
   }
   .btns{
     margin: 0rem auto 2rem auto;
@@ -80,11 +80,11 @@
     justify-content: space-between;
   }
   .links{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
   }
-  .links>.btnlinks{
+  /* .links>.btnlinks{
     font-size: 18px;  
     font-weight: 800;
     letter-spacing: 2px;
@@ -96,6 +96,10 @@
     padding: 4px 8px;
     text-decoration: underline;
     color: blue;
+  } */
+
+  .logout{
+    margin-top: 1rem;
   }
   
 }

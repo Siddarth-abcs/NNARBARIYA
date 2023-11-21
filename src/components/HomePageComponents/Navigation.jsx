@@ -47,7 +47,7 @@ function NavigationComponent() {
       ):(
         <>
         <li className='fw-bold'><Link className='login-link' to="/login">Login</Link></li>
-        <li className='fw-bold'><Link className='login-link' to='' >Our Site</Link></li>
+        <li className='fw-bold'><Link className='login-link' to='' >Dashboard</Link></li>
         </>
       )
 }
@@ -56,18 +56,20 @@ function NavigationComponent() {
 
   <div className='narbariya'>
     <h1>Narbariya</h1>
-    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>Narbariya is a top-tier tax consulting firm based in Delhi, DL. Our team of experts provides comprehensive tax solutions to help businesses achieve their financial goals. 
+
+With years of experience in the industry, we have established ourselves as a trusted partner for businesses of all sizes. Our commitment to excellence and client satisfaction sets us apart from the rest. Contact us today to see how we can help your business thrive .</p>
   </div>
 
   <div className="">
 
     <div className="aside" >
       <h2>Audit</h2>
-      <p>Chania is a city on the island of Crete.</p>
+      <p>An audit is an "independent examination of financial information of any entity .</p>
       <h2>Gst</h2>
-      <p>Crete is a Greek island in the Mediterranean Sea.</p>
+      <p>The Goods and Services Tax (GST) is a successor to VAT used in India on the supply of goods and services .</p>
       <h2>Income Tax</h2>
-      <p>You can reach Chania airport from all over Europe.</p>
+      <p>Income tax in India is governed by Entry 82 of the Union List of the Seventh Schedule to the Constitution of India .</p>
      
     </div>
   </div>

@@ -37,17 +37,20 @@ function Navbar() {
      <header>
      <div className="container-nav">
         <div className="logo">
-        <div className="img"><img src="https://firebasestorage.googleapis.com/v0/b/project-93474.appspot.com/o/Logo.png?alt=media&token=0552e921-8246-4145-93ce-7ef1adebec1c" className='narbariya-logo'/></div>
-          <p>Web Accesss</p>
+        <div className="img"><a className='img' href="https://www.narbariya.rf.gd/narbariya"><img src="https://firebasestorage.googleapis.com/v0/b/project-93474.appspot.com/o/Logo.png?alt=media&token=0552e921-8246-4145-93ce-7ef1adebec1c" className='narbariya-logo'/></a></div>
+          <h5>Business Consultant</h5>
         </div>
         <div className="btns">
 
+          {/* <div className="links">
+          <li className='btnlinks linksa'><a href="https://www.narbariya.rf.gd/narbariya" target='_blank'>Document</a></li>
+          <li className='btnlinks'><a href="https://www.narbariya.rf.gd/services" target='_blank'>Income Tax</a></li>
+          <li className='btnlinks'><a href="https://www.narbariya.rf.gd/about-us" target='_blank'>Gst</a></li>
+          <li className='btnlinks'><a href="https://www.narbariya.rf.gd/contact" target='_blank'>Roc</a></li>
+          </div> */}
+
           <div className="links">
-          <li className='btnlinks linksa'><a href="https://www.narbariya.rf.gd/narbariya" target='_blank'>Project</a></li>
-          <li className='btnlinks'><a href="https://www.narbariya.rf.gd/services" target='_blank'>Services</a></li>
-          <li className='btnlinks'><a href="https://www.narbariya.rf.gd/about-us" target='_blank'>About us</a></li>
-          <li className='btnlinks'><a href="https://www.narbariya.rf.gd/contact" target='_blank'>Contact</a></li>
-          </div>
+          Narbariya, based in Delhi, DL, is a top-tier tax consulting firm. Our team of experts, with years of industry experience, provides comprehensive tax solutions to help businesses achieve their financial goals. We have established ourselves as a trusted partner for businesses of all sizes, setting us apart with our commitment to excellence and client satisfaction. Contact us today to see how we can help your business thrive.</div>
 
         <div className="logout">
         <Link to="/" className='btn btn-outline-primary bg-primary text-light fw-bold' onClick={ () => dispatch(signOutUser())}>Logout</Link>

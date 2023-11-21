@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@900&family=Inter:wght@700&family=Lexend+Deca&family=Montserrat:wght@700&family=Mulish&family=Outfit:wght@700&family=Poppins:wght@900&family=Red+Hat+Display:wght@500;900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@900&family=Inter:wght@700&family=Lexend+Deca&family=Montserrat:wght@700&family=Mulish&family=Outfit:wght@700&family=Poppins:wght@900&family=Red+Hat+Display:wght@500;900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -46,6 +48,17 @@ html {
 
 .narbariya{
   margin: 6%;
+}
+.narbariya>h1{
+  font-size: 48px;
+  margin-top: -1rem;
+  font-family: 'Archivo Black', sans-serif;
+}
+.narbariya>p{
+  font-family: 'Roboto', sans-serif  ;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: justify;
 }
 
 .aside {
