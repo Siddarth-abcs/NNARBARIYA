@@ -3,7 +3,7 @@ import { useSelector} from 'react-redux/es/hooks/useSelector';
 import './Navbar.css'
 import { useDispatch } from 'react-redux';
 import { signOutUser } from '../../../redux/actionCreators/authActionCreater';
-
+import logo from "../../AuthComponent/logo.png"
 
 function Navbar() {
   
@@ -37,7 +37,7 @@ function Navbar() {
      <header>
      <div className="container-nav">
         <div className="logo">
-        <div className="img"><a className='img' href="https://www.narbariya.rf.gd/narbariya"><img src="https://firebasestorage.googleapis.com/v0/b/project-93474.appspot.com/o/Logo.png?alt=media&token=0552e921-8246-4145-93ce-7ef1adebec1c" className='narbariya-logo'/></a></div>
+        <div className="img"><a className='img' href="https://www.narbariya.rf.gd/narbariya"><img src={logo} className='narbariya-logo'/></a></div>
           <h5>Business Consultant</h5>
         </div>
         <div className="btns">
