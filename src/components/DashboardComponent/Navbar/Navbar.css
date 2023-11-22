@@ -31,7 +31,10 @@
   .links{
     display: none;
   }
-  
+  .narbariya-logo{
+    height: inherit;
+    width: 200px;
+  }
 }
 
 .links>li>a{
