@@ -38,7 +38,7 @@ function Navbar() {
      <div className="container-nav">
         <div className="logo">
         <div className="img"><a className='img' href="https://www.narbariya.rf.gd/narbariya"><img src={logo} className='narbariya-logo'/></a></div>
-          <h5>Business Consultant</h5>
+          <h5 className='business-consultant'>Business Consultant</h5>
         </div>
         <div className="btns">
 
